@@ -3,7 +3,7 @@
 <img width="1010" height="651" alt="image" src="https://github.com/user-attachments/assets/dd6e16b9-1008-42a6-9518-8bdded67291b" />
 
 
-This directory contains all 3D print model files (`.stl`) and CAD source files (`.ipt`) for the **Smart Automatic Medication Dispenser**.
+This directory contains all 3D print model files (`.stl`) and CAD source files (`.ipt`) for the **Automatic Medication Dispenser**.
 
 ---
 
