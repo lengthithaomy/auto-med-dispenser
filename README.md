@@ -6,6 +6,9 @@ A low-cost Arduino UNO R3-based automatic medication dispenser with a 3D-printed
 
 ## Features
 
+<img width="512" height="238" alt="architecture" src="https://github.com/user-attachments/assets/6ec572ab-8b4a-48cd-b7c5-66207dadb1fd" />
+
+
 - 15-compartment rotating tray accommodating twice-daily dispensing (AM/PM) for a full week, plus 1 calibration/reset slot.
 - 7.5:1 gear reduction ratio driving a 28BYJ-48 stepper motor for exact integer step alignment (2048 steps per compartment).
 - Integrated TCRT5000 IR reflective sensor to verify pill drop and user retrieval from the receiving tray.
@@ -47,17 +50,11 @@ Each rotation advances by exactly **2,048 integer motor steps**, ensuring repeat
 
 ## Workflow
 
-```
-       [ RTC DS3231 ] ---> [ Arduino Uno R3 ] <--- [ TCRT5000 IR Sensor ]
-                                  |
-         +------------------------+------------------------+
-         |                        |                        |
-         v                        v                        v
-[ ULN2003 / Stepper ]    [ LCD 1602 / LED ]       [ DFPlayer / Speaker ]
-(Tray Positioning)        (Visual Feedback)          (Voice Reminders)
-```
+<img width="481" height="512" alt="workflow" src="https://github.com/user-attachments/assets/304e4ebc-f762-4a0d-98ba-375febf228fe" />
+
 
 ### Operational logic:
+
 1. Arduino Uno R3 constantly checks RTC time against target schedules (`07:00:00` for AM and `19:00:00` for PM).
 2. At target time, motor steps 2,048 counts forward to position the designated compartment over the drop chute.
 3. Sloped tray compartment delivers pill to receiving tray. LED turns ON and DFPlayer broadcasts audio prompt.
