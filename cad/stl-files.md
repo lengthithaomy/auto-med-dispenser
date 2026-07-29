@@ -1,4 +1,7 @@
-# 3D Printing & CAD Design Files
+ # 3D Printing & CAD Design Files
+ 
+<img width="1010" height="651" alt="image" src="https://github.com/user-attachments/assets/dd6e16b9-1008-42a6-9518-8bdded67291b" />
+
 
 This directory contains all 3D print model files (`.stl`) and CAD source files (`.ipt`) for the **Smart Automatic Medication Dispenser**.
 
@@ -28,10 +31,10 @@ This directory contains all 3D print model files (`.stl`) and CAD source files (
 
 ## Customizing Tray Labels (`.ipt` Source File)
 
-The CAD source file **`Khay-đựng-Custom.ipt`** (Autodesk Inventor) is provided to edit or customize the day/time labels engraved or raised on the tray (e.g., changing from AM/PM to custom languages or symbols).
+The CAD source file **`Khay-đựng.ipt`** (Autodesk Inventor) is provided to edit or customize the day/time labels engraved or raised on the tray (e.g., changing from AM/PM to custom languages or symbols).
 
 ### Editing Steps:
-1. Open **`Khay-đựng-Custom.ipt`** in **Autodesk Inventor** (2020 or newer).
+1. Open **`Khay-đựng.ipt`** in **Autodesk Inventor** (2020 or newer).
 2. In the Model Browser tree (left panel), locate and right-click on **`Sketch_Labels`** / **`Extrude_Text`**.
 3. Select **Edit Sketch** to modify the text strings, fonts, or embossing depth.
 4. Export the updated model: Go to `File` ➔ `Export` ➔ `CAD Format` and select `.stl`.
