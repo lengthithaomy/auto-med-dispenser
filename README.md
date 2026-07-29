@@ -1,6 +1,9 @@
 <img width="512" height="288" alt="auto-med-dispenser" src="https://github.com/user-attachments/assets/abfca2df-5c90-41b5-a494-9ab77f361cee" />
 
 
+## Video
+https://github.com/user-attachments/assets/a4bc2392-90bc-4250-8f03-b62334f0b14c
+
 
 A low-cost Arduino UNO R3-based automatic medication dispenser with a 3D-printed gear mechanism, real-time scheduling, and reminder system for home use.
 
@@ -60,5 +63,3 @@ Each rotation advances by exactly **2,048 integer motor steps**, ensuring repeat
    - If IR Sensor detects pill taken (State transitions LOW $\rightarrow$ HIGH), system plays confirmation ("Đã uống thuốc"), turns off LED, and logs success.
    - If pill is not taken within 30 minutes, reminder alarm re-triggers until retrieved.
 
-## Video
-https://github.com/user-attachments/assets/a4bc2392-90bc-4250-8f03-b62334f0b14c
