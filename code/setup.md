@@ -1,4 +1,7 @@
----
+##Operation logic
+
+<img width="263" height="512" alt="op-logic" src="https://github.com/user-attachments/assets/8f935207-ed9a-4d9d-a5b9-46f24c63f8fe" />
+
 
 ## Software Setup & configuration
 
