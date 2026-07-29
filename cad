@@ -4,7 +4,7 @@ This directory contains all 3D print model files (`.stl`) and CAD source files (
 
 ---
 
-## 📂 File Directory & Recommended Slicer Settings
+## File Directory & Recommended Slicer Settings
 
 ### General Print Settings
 - **Filament Material:** PETG
@@ -26,7 +26,7 @@ This directory contains all 3D print model files (`.stl`) and CAD source files (
 
 ---
 
-## ✏️ Customizing Tray Labels (`.ipt` Source File)
+## Customizing Tray Labels (`.ipt` Source File)
 
 The CAD source file **`Khay-đựng-Custom.ipt`** (Autodesk Inventor) is provided to edit or customize the day/time labels engraved or raised on the tray (e.g., changing from AM/PM to custom languages or symbols).
 
