@@ -1,3 +1,5 @@
+// Using Arduino IDE to upload the code, make sure to install all of the libraries
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
