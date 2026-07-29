@@ -5,8 +5,6 @@
 https://github.com/user-attachments/assets/a4bc2392-90bc-4250-8f03-b62334f0b14c
 
 
-A low-cost Arduino UNO R3-based automatic medication dispenser with a 3D-printed gear mechanism, real-time scheduling, and reminder system for home use.
-
 ## Features
 
 <img width="512" height="238" alt="architecture" src="https://github.com/user-attachments/assets/6ec572ab-8b4a-48cd-b7c5-66207dadb1fd" />
