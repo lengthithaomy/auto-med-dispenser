@@ -18,9 +18,7 @@ A low-cost Arduino UNO R3-based automatic medication dispenser with a 3D-printed
 
 ## BOM List
 
-| Component | Quantity | Operating 
-
-Voltage | Function |
+| Component | Quantity | Operating Voltage | Function |
 | :--- | :---: | :---: | :--- |
 | **Arduino Uno R3** | 1 | 5V | Central processing unit and control logic |
 | **RTC DS3231** | 1 | 5V | Real-Time Clock module for accurate scheduling |
