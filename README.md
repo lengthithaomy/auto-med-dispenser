@@ -1,9 +1,8 @@
-# automatic-medication-dispenser
+
+
+https://github.com/user-attachments/assets/a4bc2392-90bc-4250-8f03-b62334f0b14c
+
 A low-cost Arduino UNO R3-based automatic medication dispenser with a 3D-printed gear mechanism, real-time scheduling, and reminder system for home use.
-
-<img width="512" height="288" alt="auto-med-dispenser" src="https://github.com/user-attachments/assets/abfca2df-5c90-41b5-a494-9ab77f361cee" />
-
-
 
 ## Features
 
@@ -13,6 +12,8 @@ A low-cost Arduino UNO R3-based automatic medication dispenser with a 3D-printed
 - Audio prompts via DFPlayer Mini speaker ("Đã đến giờ uống thuốc...") and visual alerts via LED indicator and LCD 1602 display.
 - Automatically repeats reminder alarms every 30 minutes if pills remain unretrieved.
 - Powered via standard 5V USB, utilizing an RTC DS3231 real-time clock to run completely standalone without internet dependency or subscription fees.
+
+<img width="512" height="288" alt="auto-med-dispenser" src="https://github.com/user-attachments/assets/abfca2df-5c90-41b5-a494-9ab77f361cee" />
 
 ---
 
@@ -44,7 +45,7 @@ Each rotation advances by exactly **2,048 integer motor steps**, ensuring repeat
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 ```
        [ RTC DS3231 ] ---> [ Arduino Uno R3 ] <--- [ TCRT5000 IR Sensor ]
