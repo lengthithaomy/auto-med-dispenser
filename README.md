@@ -1,9 +1,9 @@
 
 <img width="1000" height="1000" alt="thumb" src="https://github.com/user-attachments/assets/b748ff1a-7736-40bc-b21c-3d4e8a1166e9" />
 
-
-## Video
-https://github.com/user-attachments/assets/a4bc2392-90bc-4250-8f03-b62334f0b14c
+Hello there, this is my first year of college project for the Introduction to Engineering subject. 
+The objectives of this project are for elderly people, or people who often forget to take their pills on time. Because I am making it for my own home use, so the rotating tray and the reminder sound is in Vietnamese! I will include the original ipt files for the tray if you want to make it your own language. 
+Check out this Youtube video to see how it works: https://youtu.be/d-JQTOUDefM?si=DakY0BLv0e9bnDus
 
 
 ## Features
@@ -62,3 +62,13 @@ Each rotation advances by exactly **2,048 integer motor steps**, ensuring repeat
    - If IR Sensor detects pill taken (State transitions LOW $\rightarrow$ HIGH), system plays confirmation ("Đã uống thuốc"), turns off LED, and logs success.
    - If pill is not taken within 30 minutes, reminder alarm re-triggers until retrieved.
 
+### Getting started
+
+1. Assemble the circuit according to the components listed in the BOM List
+2. Flash the Arduino sketch (see [`/code`](code) to the Arduino Uno R3.
+3. Set the current date/time on the DS3231 module (one-time setup, or on battery replacement).
+4. Load pills into the 14 weekly compartments (AM/PM × 7 days), leaving the calibration slot empty.
+5. Connect the 5V USB power supply - the device will begin tracking scheduled dosing times immediately.
+
+### License
+See 
