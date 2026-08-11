@@ -131,7 +131,7 @@ The IR sensor monitors the receiving area.
 ## 🚀 Getting Started
 
 1. Assemble the circuit using the components listed in the [Bill of Materials](#-bill-of-materials).
-2. Upload the Arduino sketch from `/firmware` to the Arduino Uno.
+2. Upload the Arduino sketch from `/code` to the Arduino Uno.
 3. Set the current date and time on the DS3231.
 4. Fill the 14 medication compartments (AM/PM × 7 days). Leave the calibration slot empty.
 5. Plug in the 5V USB power supply.
@@ -163,7 +163,9 @@ There are still quite a few things I'd change if I had more time:
 
 ## 📜 License
 
-Add your chosen license here (for example, MIT).
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
