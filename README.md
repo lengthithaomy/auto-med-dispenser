@@ -1,6 +1,6 @@
-# 💊 AutoDose — Automatic Medication Dispenser
+### 💊 AutoDose — Automatic Medication Dispenser
 
-> A standalone, internet-free pill dispenser built for the *Introduction to Engineering* course project — designed to help patients (especially the elderly) take the right medication at the right time, without needing a smartphone, subscription, or Wi-Fi.
+> A standalone, internet-free pill dispenser built for the *VoltHacks Hackathon 2026g* project — designed to help patients (especially the elderly) take the right medication at the right time, without needing a smartphone, subscription, or Wi-Fi. Because it was made for my own home use, I decided to design the day of the week on the tray and the reminder sound to be in Vietnamese. I also included the original Autodesk Inventor file for anyone who want to change the language of the tray. To change the reminder sound for your own liking, check out #change-reminder-sound
 
 <p align="center">
   <img width="480" alt="AutoDose device" src="https://github.com/user-attachments/assets/b748ff1a-7736-40bc-b21c-3d4e8a1166e9" />
