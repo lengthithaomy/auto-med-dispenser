@@ -39,14 +39,6 @@ The whole thing runs locally on an Arduino. There's no app, internet connection,
 
 ---
 
-## 🧠 System Architecture
-
-<p align="center">
-  <img width="500" alt="System architecture" src="https://github.com/user-attachments/assets/6ec572ab-8b4a-48cd-b7c5-66207dadb1fd" />
-</p>
-
----
-
 ## 🔩 Bill of Materials
 
 | Component                               | Qty | Operating Voltage | Function                         |
